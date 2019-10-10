@@ -1,0 +1,16 @@
+2019-10-10 12:09:07.483 [main] INFO  com.kong.poc.Application - Starting Application on SMV-CPU-054 with PID 4208 (C:\Users\Bhushan.Badgujar\eclipse-workspace\kong-poc\build\libs\kong-poc-service-1.0.0.jar started by Bhushan.Badgujar in C:\Users\Bhushan.Badgujar\eclipse-workspace\kong-poc)
+2019-10-10 12:09:07.488 [main] INFO  com.kong.poc.Application - No active profile set, falling back to default profiles: default
+2019-10-10 12:09:09.661 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9001 (http)
+2019-10-10 12:09:09.725 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9001"]
+2019-10-10 12:09:09.754 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-10 12:09:09.754 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-10 12:09:10.003 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-10 12:09:10.003 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2390 ms
+2019-10-10 12:09:10.321 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 12:09:10.679 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9001"]
+2019-10-10 12:09:10.847 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9001 (http) with context path ''
+2019-10-10 12:09:10.850 [main] INFO  com.kong.poc.Application - Started Application in 4.215 seconds (JVM running for 4.774)
+2019-10-10 13:11:29.108 [http-nio-9001-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 13:11:29.109 [http-nio-9001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-10 13:11:29.169 [http-nio-9001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 60 ms
+2019-10-10 13:16:40.578 [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration debug="true">
+	<!-- <property resource="application.properties" /> -->
+    <appender name="info" class="ch.qos.logback.core.FileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+       	<file>logs/kong-pic-service.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    
+   <!--  <appender name="action" class="ch.qos.logback.core.FileAppender">
+        <file>logs/${project.name}.log</file>
+        <encoder>
+            <pattern>%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="action" additivity="false" level="INFO">
+        <appender-ref ref="action"/>
+    </logger> -->
+
+    <logger name="springboot-core" level="WARN" />
+    <logger name="io.netty.util.internal.PlatformDependent" level="ERROR" />
+
+    <root level="debug">
+        <appender-ref ref="info" />
+    </root>
+</configuration>
